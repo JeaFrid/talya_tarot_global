@@ -65,8 +65,3 @@ Talya Tarot, Google Gemini tarafından desteklenen yapay zekâ yorumlarıyla tar
   flutter run -d web
   ```
 Platform hedefinizin Flutter tarafından desteklendiğinden ve gerekli araç zincirinin kurulu olduğundan emin olun.
-
-## Ek Notlar
-- `.env`, keystore’lar ve Firebase konfigürasyonları `.gitignore` üzerinde yer alır; bu dosyaları paylaşmayın.
-- OneSignal ve Firebase entegrasyonlarının çalışması için ilgili panellerde gerekli izin ve ayarların (push bildirimler, API erişimleri vb.) aktif olduğundan emin olun.
-- Proje yayınlanmadan önce gerçek kullanıcı verilerini korumak için sadece örnek dosyaları ( `.env.example`, `google-services.json.example`, `key.properties.example`) paylaşın.
